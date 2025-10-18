@@ -91,7 +91,7 @@ To extract the **threshold voltage (Vt)** of an NMOS device and analyze **veloci
    x0 = 0.773626, y0 = 0
    ```
    Hence Vt= 0.773626
-   📈 *(Attach plot: Id vs. Vds for different Vgs)*
+  ![text](https://github.com/aneeshbankapur/CMOS-Design-and-Spice-Simulation/blob/5f9a99f3c0113858d880ea9aedc0911f1d5c9499/Images/id_vgs.png)
    
 ---
 
