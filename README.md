@@ -9,7 +9,7 @@ Each task focuses on understanding MOSFET device characteristics, CMOS inverter 
 ### Objective
 To study the **I–V characteristics** of an NMOS transistor and identify the **linear** and **saturation** regions of operation.
 
-**📈NMOS Picture**
+![text](https://github.com/aneeshbankapur/CMOS-Design-and-Spice-Simulation/blob/4bd9c4d2126f5d5e87dcfcadd06d1701c96f7344/Images/nmos.webp)
 ### Discussion
 - For **small Vds**, the MOSFET operates in the **linear (ohmic)** region, where Id increases almost linearly with Vds.  
 - As **Vds** increases and reaches **Vgs − Vt**, the device enters **saturation**, where Id becomes nearly constant.  
@@ -34,7 +34,7 @@ Inside ngspice
 plot -vdd#branch
 ```
 
-📈 *(Attach plot: Id vs. Vds for different Vgs)*
+![text](https://github.com/aneeshbankapur/CMOS-Design-and-Spice-Simulation/blob/f6d2b8fa1fcd040fa46825e194d4566a38f5abf8/Images/id_vs_vds.png)
 
 
 ---
@@ -72,7 +72,7 @@ To extract the **threshold voltage (Vt)** of an NMOS device and analyze **veloci
    ```
    plot -vdd#branch
    ```
-   📈 *(Attach plot: Id vs. Vds for different Vds)*
+   ![text](https://github.com/aneeshbankapur/CMOS-Design-and-Spice-Simulation/blob/998d54ee86ccb4a0af8da19f0334ac33d223636f/Images/idvds_voltagesat.png)
    
 2. **Threshold Extraction (Id–Vgs Plot):**
    
@@ -126,7 +126,7 @@ To simulate a **CMOS inverter** and obtain its **Voltage Transfer Characteristic
  ```
  x0 = 0.87699, y0 = 0.876304
 ```
-📈 *(Attach plot: Vout vs in)*
+![text](https://github.com/aneeshbankapur/CMOS-Design-and-Spice-Simulation/blob/68a869f7aa7da67f403b6486710d6103ee9fffb2/Images/cmos_vtc.png)
 
 ---
 
@@ -178,7 +178,7 @@ To analyze the **dynamic performance** of a CMOS inverter using a transient (tim
   - To calculate the rise delay subtract the X values
   - There for **Fall delay= 334ns**
     
-📈 *(Attach plot: Trans Vout vs in)*
+![text](https://github.com/aneeshbankapur/CMOS-Design-and-Spice-Simulation/blob/b4b8954e67d39738c1e6e71c62ebe87215d3bb89/Images/cmos_delay.png)
 
 ---
 
@@ -202,7 +202,7 @@ To determine the **noise margins** of a CMOS inverter and assess its **robustnes
   - **NML = VIL − VOL**  
   - **NMH = VOH − VIH**
     
-**📈graph for cmos noise**
+![text](https://github.com/aneeshbankapur/CMOS-Design-and-Spice-Simulation/blob/2a2ce9f9cdb51030d06b106dc9856a717d22eeee/Images/cmos_noise.jpg)
 
 ### Simulation in Ngspice
   Run the following commands 
@@ -246,7 +246,7 @@ To study how **supply voltage (Vdd)** and **transistor sizing (W/L)** variations
    ```
    ngspice   day5_inv_supplyvariation_Wp1_Wn036.spice
    ```
-   **Photo of supplyvar**
+   ![text](https://github.com/aneeshbankapur/CMOS-Design-and-Spice-Simulation/blob/461486ca9728be6114d2a997d963e13904c9e71a/Images/cmos_supplyvar.png)
    
    **Observations:**
    - Noise Margins are reduced when power supply decreases
@@ -266,7 +266,7 @@ To study how **supply voltage (Vdd)** and **transistor sizing (W/L)** variations
    ```
    plot out vs time in 
    ```
-   **Photo of devicevar**
+   ![text](https://github.com/aneeshbankapur/CMOS-Design-and-Spice-Simulation/blob/315277ccc7d7ccf23a973fcfba9e071b6933c363/Images/cmos_devicevar.png)
 
   **Observations:**
    - As Pfet is stronger than Nfet we observe that the device is hold the value of vdd more that 0 and output
