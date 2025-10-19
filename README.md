@@ -166,7 +166,7 @@ To analyze the **dynamic performance** of a CMOS inverter using a transient (tim
   x0 = 2.48387e-09, y0 = 0.898864
  ```
   - To calculate the rise delay subtract the X values
-  - There for **Rise delay= 331ns**
+  - Therefore **Rise delay= 331ns**
 
   **To calculate Fall delay**:
   - CLick on the input and output graph and Vdd/2 (i.e 0.9V) when output is falling
@@ -176,7 +176,7 @@ To analyze the **dynamic performance** of a CMOS inverter using a transient (tim
   x0 = 4.33504e-09, y0 = 0.9
  ```
   - To calculate the rise delay subtract the X values
-  - There for **Fall delay= 334ns**
+  - Therefore **Fall delay= 334ns**
     
 ![text](https://github.com/aneeshbankapur/CMOS-Design-and-Spice-Simulation/blob/b4b8954e67d39738c1e6e71c62ebe87215d3bb89/Images/cmos_delay.png)
 
@@ -269,7 +269,7 @@ To study how **supply voltage (Vdd)** and **transistor sizing (W/L)** variations
    ![text](https://github.com/aneeshbankapur/CMOS-Design-and-Spice-Simulation/blob/315277ccc7d7ccf23a973fcfba9e071b6933c363/Images/cmos_devicevar.png)
 
   **Observations:**
-   - As Pfet is stronger than Nfet we observe that the device is hold the value of vdd more that 0 and output
+   - As Pfet is stronger than Nfet we observe that the device is holding the value of vdd more that 0 as output
    - Vm shifts towards right and becomes equla to 0.98V
 
 ---
